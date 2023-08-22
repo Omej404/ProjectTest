@@ -1,0 +1,57 @@
+.registration-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+  .registration-form h2 {
+    margin-bottom: 20px;
+  }
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .form-group input[type="text"],
+  .form-group select,
+  .form-group input[type="number"],
+  .form-group input[type="file"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .form-group select {
+    cursor: pointer;
+  }
+
+  .form-group input[type="file"] {
+    cursor: pointer;
+  }
+
+.left-column,
+.right-column {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
